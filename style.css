@@ -1,0 +1,44 @@
+@import 'https://fonts.googleapis.com/css?family=Stalinist One';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Stalinist One', sans-serif;
+  overflow: hidden;
+  background: url('https://www.itl.cat/pngfile/big/99-992191_wallpaper-linear-gradient-green-blue-spring-green-dark.jpg');
+}
+
+.scene,
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+.heading {
+  color: #eee;
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  margin-top: 1em;
+  color: white;
+  text-transform: uppercase;
+}
